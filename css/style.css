@@ -2,6 +2,10 @@ body {
 	margin: 0px;
 }
 
+li {
+	display: inline-block;
+}
+
 .background {
 	z-index: -1;
 }
@@ -22,11 +26,40 @@ body {
 	
 }
 
+#phones_img {
+	display: inline-block;
+}
+
+#not_phones {
+	display: inline-block;
+}
+
+#brand {
+	display: inline-block;
+}
+
+#house_login {
+	display: inline-block;
+}
+
 #moments_text {
 	background-image: url(../images/frame.png);
 	background-repeat: no-repeat;
 	height: 284px;
 	width: 504px;
+}
+
+#footer_nav {
+	text-decoration: none;
+	display: inline;
+}
+
+#footer_nav_ul {
+	display: inline-block;
+}
+
+#copyright {
+	display: inline-block;
 }
 
 footer {
