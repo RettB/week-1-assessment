@@ -1,5 +1,6 @@
 body {
 	margin: 0px;
+	background-color: transparent;
 }
 
 li {
@@ -7,7 +8,8 @@ li {
 }
 
 .background {
-	z-index: -1;
+	/*position: absolute;
+	z-index: -1;*/
 }
 
 #upper_blue_half {
@@ -23,7 +25,9 @@ li {
 }
 
 #page_content {
-	
+	background-color: transparent;
+	width: 1000px;
+	margin: auto;
 }
 
 #phones_img {
@@ -64,4 +68,5 @@ li {
 
 footer {
 	background-color: #F5F6F8;
+	text-align: center;
 }
