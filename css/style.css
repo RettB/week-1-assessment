@@ -1,0 +1,34 @@
+body {
+	margin: 0px;
+}
+
+.background {
+	z-index: -1;
+}
+
+#upper_blue_half {
+	background-image: url(../images/bgtile.png);
+	background-repeat: repeat-x;
+	height: 280px;
+	margin: 0;
+}
+
+#lower_white_half {
+	background-color: #F5F6F8;
+	height: 300px;
+}
+
+#page_content {
+	
+}
+
+#moments_text {
+	background-image: url(../images/frame.png);
+	background-repeat: no-repeat;
+	height: 284px;
+	width: 504px;
+}
+
+footer {
+	background-color: #F5F6F8;
+}
