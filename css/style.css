@@ -26,16 +26,18 @@ li {
 
 #page_content {
 	background-color: transparent;
-	width: 1000px;
+	width: 900px;
 	margin: auto;
 }
 
 #phones_img {
 	display: inline-block;
+	float: left;
 }
 
 #not_phones {
 	display: inline-block;
+	float: right;
 }
 
 #brand {
@@ -44,6 +46,7 @@ li {
 
 #house_login {
 	display: inline-block;
+	float: right;
 }
 
 #moments_text {
@@ -69,4 +72,5 @@ li {
 footer {
 	background-color: #F5F6F8;
 	text-align: center;
+	clear: both;
 }
