@@ -1,6 +1,7 @@
 body {
 	margin: 0px;
 	background-color: transparent;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 li {
@@ -8,23 +9,29 @@ li {
 }
 
 .background {
-	/*position: absolute;
-	z-index: -1;*/
+	
 }
 
 #upper_blue_half {
+	display: block;
 	background-image: url(../images/bgtile.png);
 	background-repeat: repeat-x;
 	height: 280px;
+	width: 100%;
 	margin: 0;
 }
 
 #lower_white_half {
+	display: block;
 	background-color: #F5F6F8;
-	height: 300px;
+	height: 500px;
+	width: 100%;
 }
 
 #page_content {
+	position: relative;
+	z-index: 1;
+	padding-top: 140px;
 	background-color: transparent;
 	width: 900px;
 	margin: auto;
