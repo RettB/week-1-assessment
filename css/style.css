@@ -1,5 +1,7 @@
 /*ASK FOR HELP WITH Z-INDEX AND POSITIONING*/
 
+/*ACTUALLY... CRY! FOR HELP!*/
+
 body {
 	margin: 0px;
 	background-color: transparent;
@@ -11,19 +13,20 @@ li {
 }
 
 a {
+	text-decoration: none;
 	padding: 5px;
 }
 
 .background {
-	position: absolute;
-	z-index: 1;
+	/*position: absolute;
+	z-index: 1;*/
 }
 
 #upper_blue_half {
-	/*position: absolute;
-	z-index: 1;*/
+	position: absolute;
+	z-index: 1;
 	display: block;
-	background-image: url(../images/bgtile.png);
+	background-image: url('../images/bgtile.png');
 	background-repeat: repeat-x;
 	height: 280px;
 	width: 100%;
@@ -31,12 +34,13 @@ a {
 }
 
 #lower_white_half {
-	/*position: absolute;
-	z-index: 1;*/
+	position: absolute;
+	z-index: 1;
 	display: block;
 	background-color: #F5F6F8;
 	height: 500px;
 	width: 100%;
+	top: 280px;
 }
 
 #page_content {
@@ -44,6 +48,7 @@ a {
 	z-index: 2;
 	padding-top: 140px;
 	background-color: transparent;
+	height:500px;
 	width: 900px;
 	margin: auto;
 }
@@ -97,7 +102,10 @@ a {
 }
 
 footer {
+	z-index: 2;
+	width: 100%;
+	position: absolute;
+	margin: 75px auto 0 auto;
 	background-color: #F5F6F8;
 	text-align: center;
-	clear: both;
 }
