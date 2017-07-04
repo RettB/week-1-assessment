@@ -2,11 +2,19 @@
 
 /*ACTUALLY... CRY! FOR HELP!*/
 
+/*GOT HELP... HOORAY!*/
+
+/*FUTURE VERSIONS SHOULD INCLUDE RESPONSIVE DESIGN*/
+
 body {
 	margin: 0px;
 	background-color: transparent;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
+/*INSERT BUTTON STYLES HERE*/
+/*INCLUDE COLOR GRADIENT IN FUTURE EDITING*/
+/*BUTTON SHOULD ALSO BE VERTICALLY ALIGNED WITH LOGO*/
 
 li {
 	display: inline-block;
@@ -15,6 +23,11 @@ li {
 a {
 	text-decoration: none;
 	padding: 5px;
+	/*FIX DEFAULT BLUE COLOR*/
+}
+
+h1 {
+	color: #34648A;
 }
 
 .background {
@@ -26,6 +39,7 @@ a {
 	position: absolute;
 	z-index: 1;
 	display: block;
+	/*MAYBE TRY GRADIENT NEXT TIME*/
 	background-image: url('../images/bgtile.png');
 	background-repeat: repeat-x;
 	height: 280px;
@@ -76,11 +90,23 @@ a {
 	float: right;
 }
 
-#moments_text {
+#moments_text_frame {
 	background-image: url(../images/frame.png);
 	background-repeat: no-repeat;
 	height: 284px;
 	width: 504px;
+}
+
+#capture_share {
+	width: 300px;
+}
+
+#moments_text {
+	padding: 2px 55px 0px 55px;
+}
+
+#app_stores_logos {
+	padding-top: 40px;
 }
 
 #apple_app_store_logo {

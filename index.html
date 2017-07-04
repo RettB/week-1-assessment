@@ -21,27 +21,32 @@
 </section>
 
 <!-- page content-->
+<!-- added alt tags to images -->
 
 <div id="page_content">
 	<div id="phones_img">
-		<img id="phones" src="images/phones.png">
+		<img id="phones" src="images/phones.png" alt="smartphones with app previews">
 	</div>
 	<div id="not_phones">
 		<div id="brand_login">
-			<img id="brand" src="images/brand.png">
+			<img id="brand" src="images/brand.png" alt="Instagram logo">
 			<div id="house_login">
 				<button id="login">
-					<a href="#"><img id="house_icon" src="images/home.png">Log in</a>
+					<a href="#"><img id="house_icon" src="images/home.png" alt="home icon">Log in</a>
 				</button>
 			</div>
 		</div>
-		<div id="moments_text">
+		<div id="moments_text_frame">
 
 		<!-- fix divs here to separate text from frame and allow css width fix -->
+		<!-- separated frame, header, and paragraph text to allow css fixes -->
+		<div id="moments_text">
 
+			<div id="capture_share">
 			<h1>
 				Capture and Share the World's Moments
 			</h1>
+			</div>
 			<p>
 				Instagram is a <strong>fast</strong>, <strong>beautiful</strong> and <strong>fun</strong> way to share your life with friends and family.
 			</p>
@@ -51,10 +56,12 @@
 			<p>
 				Oh yeah, did we mention it's free?
 			</p>
-		</div>
+			<!-- moved badge icons div inside here to make css alignment work -->
 		<div id="app_stores_logos">
-			<img id="apple_app_store_logo" src="images/badge-iphone.png">
-			<img id="google_play_store_logo" src="images/badge-android.png">
+			<img id="apple_app_store_logo" src="images/badge-iphone.png" alt="apple store badge">
+			<img id="google_play_store_logo" src="images/badge-android.png" alt="google play store badge">
+		</div>	
+		</div>	
 		</div>
 	</div>
 </div>
